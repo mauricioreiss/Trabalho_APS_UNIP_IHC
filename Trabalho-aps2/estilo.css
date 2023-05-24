@@ -1,0 +1,80 @@
+ body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://img.freepik.com/fotos-premium/ceu-noturno-com-estrelas-e-via-lactea_89378-116.jpg");
+ }
+
+ h1,h2,h3{
+    
+    color: aqua;
+    font-size: 30px;
+    text-align: center;
+    padding: 0px;
+    border: 10px;
+ }
+
+ p{
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    border-bottom: 0px;
+    
+ }
+ a{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 0px;
+    border-bottom: 0px;
+ }
+
+ ol{
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        border: 10px;
+ }
+
+ strong{
+    color: aqua;
+ }
+ .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ img{
+    width: 1000px;
+    height: 300px;
+    border: 10px;
+ }
+ 
+ .navbar,.navbar2 {
+    align-items: center;
+    width: 100%;
+    height: 230px;
+  }
+
+  .navbar,.navbar2 img {
+    width: 100%;
+    height: 230px;
+  }
+ .links li {
+    display: inline-flex;
+    flex-direction: column;
+    border: 10px;
+  }
+
+.links a {
+        border: 3px solid white;
+        margin: 10px;
+        margin-right: 10px;
+        padding: 10px;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+ }
+
+  
